@@ -1,0 +1,37 @@
+# Ignore target (compiled classes and JARs)
+target/
+
+# Ignore Maven dependencies
+*.jar
+*.war
+*.ear
+
+# Ignore IntelliJ / Eclipse / VS Code IDE settings
+.idea/
+*.iml
+*.class
+*.log
+.vscode/
+.project
+.classpath
+.settings/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and security files
+.env
+application.properties
+application.yml
+
+# Ignore logs and temp files
+logs/
+*.log
+*.tmp
+
+# Ignore node_modules (if frontend exists)
+node_modules/
+
+# Ignore database files
+*.sqlite
